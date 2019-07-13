@@ -1,0 +1,18 @@
+function myFunction(PopUp,Sound) {
+  var popup = document.getElementById(PopUp);
+  setTimeout(function(){ popup.style.visibility = "hidden";}, 3000); 
+  popup.classList.toggle("show");  
+  document.getElementById(Sound).play(); return false; 
+}
+//Implement On Div OnClick
+<div class="popup17" onclick="myFunction('popup17','audio_play17')">
+
+//Relation myFunction
+document.getElementById(Sound).play(); return false; -> <audio id="audio_play21">
+                                                        <source src="sound/sound24.ogg" type="audio/ogg" />
+                                                        <source src="sound/sound24.mp3" type="audio/mpeg" />
+                                                        </audio>
+                                                        
+var popup = document.getElementById(PopUp); -> <span class="popuptext29" id="myPopup29">Dia Orang Indonesia</span>
+
+function myFunction(PopUp,Sound) -> PopUp itu variable, Sound itu Variable, Declare variable sewaktu di element <div> onClick
